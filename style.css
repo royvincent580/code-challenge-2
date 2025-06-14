@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  flex: 1;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.guest-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+
+.tag.Friend { background-color: #915c3c; }
+.tag.Family { background-color: #472c6a; }
+.tag.Colleague { background-color: #71243b; }
+
+.meta {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.btn-group {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+button.rsvp-attending {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+button.rsvp-not-attending {
+  background-color: rgb(68, 32, 32);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+button.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+button.edit-btn {
+  background: #361090;
+  color: rgb(251, 248, 248);
+  border: none;
+  padding: 5px 10px;
+}
+
+
