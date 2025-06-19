@@ -16,7 +16,7 @@ const initialGuests = [
   { name: "Gidi godwill", category: "Friend" },
   { name: "imelda wambui", category: "Family" },
   { name: "santana muthoni", category: "Colleague" },
-  { name: "roy wambua", category: "Friend" }
+
 ];
 
 window.onload = function () {
