@@ -1,0 +1,38 @@
+# Guest List Manager
+
+A simple web application to manage a guest list for events. Add, edit, search, and categorize guests as Friends, Family, or Colleagues. Mark RSVP status and clear the list as needed.
+
+## Features
+
+- Add guests with name and category (Friend, Family, Colleague)
+- Preloaded with 9 sample guests
+- Limit of 10 guests
+- Edit guest names
+- Mark guests as "Attending" or "Not Attending"
+- Remove individual guests
+- Search guests by name
+- Clear all guests
+
+## Usage
+
+1. Open `index.html` in your browser.
+2. Use the form to add new guests (up to 10).
+3. Use the search box to filter guests by name.
+4. Use the buttons next to each guest to:
+   - Toggle RSVP status
+   - Edit the guest's name
+   - Remove the guest
+5. Click "Clear All" to remove all guests from the list.
+
+## Files
+
+- `index.html` – Main HTML file
+- `style.css` – Styles for the app
+- `script.js` – App logic (adding, editing, searching, RSVP, etc.)
+- `readme` – Project documentation
+
+## Screenshot
+
+![Screenshot](screenshot.png) <!-- Add a screenshot if available -->
+
+## License
